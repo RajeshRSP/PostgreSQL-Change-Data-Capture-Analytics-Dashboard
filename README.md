@@ -24,7 +24,11 @@ This project implements a real-time change data capture (CDC) pipeline using Pos
 - **Streamlit**: Provides an interactive visualization interface
 
 ## Dashboard Preview
-![Dashboard Screenshot](./images/dashboard.png)
+
+<div style="display: flex;">
+  <img src="./images/dashboard.png" alt="Dashboard Screenshot" style="margin-right: 10px;" />
+  <img src="./images/dashboard1.png" alt="Dashboard Screenshot" />
+</div>
 
 ## Getting Started
 ### Prerequisites
