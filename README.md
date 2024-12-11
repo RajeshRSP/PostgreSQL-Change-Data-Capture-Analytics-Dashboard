@@ -101,5 +101,5 @@ spark-submit process_cdc.py
 
 5. Launch Streamlit dashboard:
 ```bash
-streamlit run dashboard.py
+streamlit run streamlit_db_operations_visualization.py
 ```
