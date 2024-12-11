@@ -32,11 +32,11 @@ This project implements a real-time change data capture (CDC) pipeline using Pos
 
 ## Getting Started
 ### Prerequisites
-- PostgreSQL (with replication slot support)
-- Apache Kafka
-- Apache Spark
+- PostgreSQL 12
+- Apache Kafka 3.7.0
+- Apache Spark 3.3.2
 - Python 3.7+
-- Streamlit
+- Streamlit 1.32.0
 
 ### PostgreSQL Configuration
 1. Modify PostgreSQL configuration:
@@ -57,7 +57,7 @@ SELECT * FROM pg_replication_slots();
 ```
 
 ### Kafka Setup
-1. [Install Kafka](https://hevodata.com/blog/how-to-install-kafka-on-ubuntu/)
+1. [Install Kafka](config/install_kafka.sh)
 2. Configure Kafka Connect:
    - Verify PostgreSQL JDBC driver compatibility
    - Create `/opt/kafka/connect` directory
