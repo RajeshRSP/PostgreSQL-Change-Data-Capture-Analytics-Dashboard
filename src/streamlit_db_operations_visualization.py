@@ -80,7 +80,7 @@ def plot_top_tables(filtered_df):
 # Main function to run the Streamlit app
 def main():
     # Load the data
-    file_path = "/Users/rajesh_shunmugavel/Downloads/konbert-output-01a9db20.parquet"
+    file_path = <path to parquet file>
     df = pd.read_parquet(file_path)
 
     # Set up Streamlit UI
